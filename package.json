@@ -1,0 +1,23 @@
+{
+  "name": "RiSS-proActive",
+  "version": "1.0.0",
+  "description": "RiSS - Read it Simple, Stupid! (pro-active edition)",
+  "main": "rss.js",
+  "scripts": {
+    "start": "node rss.js"
+  },
+  "dependencies": {
+    "request": "^2.88.2",
+    "rss-parser": "^3.8.0",
+    "sqlite3": "^4.2.0"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "keywords": [
+    "rss",
+    "push notifications",
+    "alarm"
+  ],
+  "author": "Helge Hemmer"
+}
